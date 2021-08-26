@@ -1,0 +1,80 @@
+body{
+   background: #dedede;
+   font-family:Arial;
+   margin: 0px;
+   padding: 0px;
+    
+}
+.dropdown{
+    margin: 0 auto;
+}
+nav{
+    height: 60px;
+    background: #6888a8;
+    box-shadow: 0 10px 15px rgb(0,0,0,01);
+}
+logo{
+padding: 5px 0 0 80px;
+width: 150px;
+height: auto;
+}
+nav ul{
+    padding: 0px;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+    
+}
+nav ul li{
+    background: #2c3e50;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background: #243342;
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left:  150px;
+}
+.body{
+    padding: 0 20px;
+}
+.body img{
+    width: 50%;
+    max-width: 500px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+}
+p{
+    text-align: justify;
+}
